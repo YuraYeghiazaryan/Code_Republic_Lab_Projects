@@ -1,3 +1,14 @@
+'''Trivial Compression (zip)
+Write a program that reads the content of the text file, compresses it with an
+algorithm (preferable your own) and saves it in a file. The aim is to reduce the size
+of the file as much as possible. The algorithm can be of any eciency, for
+example, you can replace the string “aaaabbbcc“ with “a4b3cc“, where the number
+shows how many times the character is repeated in a word.
+The program should also allow to decompress the text that has already been
+compressed with your own algorithm. This means that the menu of the program
+should allow the user to choose between compression and decompression. Then
+the user provides a text file which contains a text that should be compressed or
+already compressed text that should be decompressed.'''
 import tkinter as tk
 import os
 import json
